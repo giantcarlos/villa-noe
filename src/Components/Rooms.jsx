@@ -2,7 +2,9 @@ import React from 'react'
 
 function Rooms() {
   return (
-    <div>Rooms</div>
+    <section className="rooms">
+        Rooms
+    </section>
   )
 }
 
