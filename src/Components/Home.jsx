@@ -7,6 +7,7 @@ function Home() {
             <img className="home-image" alt="Sunrise on Villa Noe Beach sign." src="sunrise.jpg" />
             <h1 className="large-font">VILLA NOE BEACH</h1>
             <h2 className="small-font">Quezon, Philippines</h2>
+            <button className="button">BOOK NOW</button>
         </div>
     </section>
   )
