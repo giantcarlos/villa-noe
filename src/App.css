@@ -4,7 +4,7 @@
 
 body {
   margin: 0;
-  font-family: Arial Black, Helvetica, Arial, sans-serif;
+  font-family: Helvetica Black, Helvetica, Arial, sans-serif;
   text-align: center;
   overflow-x: hidden;
 }
@@ -57,7 +57,7 @@ body {
 
 .large-font {
   text-align: left;
-  font-size: 4rem;
+  font-size: 5rem;
   grid-column: 1;
   grid-row: 1;
   margin-top: 25%;
