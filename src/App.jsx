@@ -12,7 +12,7 @@ function App() {
     <>
       <div>
         <header>
-          <NavBar />
+          {/* <NavBar /> */}
         </header>
           <Home />
           <About />

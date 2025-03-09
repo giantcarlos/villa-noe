@@ -2,6 +2,13 @@
   box-sizing: border-box;
 }
 
+body {
+  margin: 0;
+  font-family: Arial Black, Helvetica, Arial, sans-serif;
+  text-align: center;
+  overflow-x: hidden;
+}
+
 #root {
   margin: 0 auto;
   padding: 0;
@@ -9,21 +16,40 @@
 }
 
 .home {
-  background-color: teal;
+  background-color: rgb(0, 190, 190);
+  color: antiquewhite;
 }
 
 .about {
   background-color: antiquewhite;
+  color: rgb(0, 190, 190);
 }
 
 .rooms {
-  background-color: teal;
+  background-color: rgb(0, 190, 190);
+  color: antiquewhite;
 }
 
 .amenities {
   background-color: antiquewhite;
+  color: rgb(0, 190, 190);
 }
 
 .contact {
-  background-color: teal;
+  background-color: rgb(0, 190, 190);
+  color: antiquewhite;
+}
+
+.home-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.home-image {
+  grid-column: 2/2;
+  width: 85%;
+  margin-top: 10rem;
+  margin-bottom: 10rem;
 }
