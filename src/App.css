@@ -60,15 +60,15 @@ body {
   font-size: 5rem;
   grid-column: 1;
   grid-row: 1;
-  margin-top: 25%;
+  margin-top: 35%;
   margin-left: 35%;
 }
 
 .small-font {
   text-align: left;
-  font-size: 1.25rem;
+  font-size: 1.125rem;
   grid-column: 1;
   grid-row: 1;
-  margin-top: 55%;
+  margin-top: 27.5%;
   margin-left: 35%;
 }
