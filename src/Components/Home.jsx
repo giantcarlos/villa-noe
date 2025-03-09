@@ -27,7 +27,7 @@ function Home() {
             <motion.img variants={reveal} initial="hidden" animate="show" transition={{duration: .875, delay:1.50}}className="home-image" alt="Sunrise on Villa Noe Beach sign." src="sunrise.jpg" />
             <motion.h1 className="large-font" variants={item2} initial="hidden" animate="show" transition={{duration: .5, delay:1.375}}>VILLA NOE BEACH</motion.h1>
             <motion.h2 className="small-font" variants={item3} initial="hidden" animate="show" transition={{duration: .25, delay:1.325}}>Quezon, Philippines</motion.h2>
-            <motion.button className="button" variants={item2} initial="hidden" animate="show" transition={{duration: .5, delay:1.475}}>BOOK NOW</motion.button>
+            <motion.button className="button" variants={item2} initial="hidden" animate="show" transition={{duration: .5, delay:1.5}}>BOOK NOW</motion.button>
         </div>
     </motion.section>
   )
