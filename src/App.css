@@ -57,11 +57,11 @@ body {
 
 .large-font {
   text-align: left;
-  font-size: 5rem;
+  font-size: 4.5rem;
   grid-column: 1;
   grid-row: 1;
   margin-top: 35%;
-  margin-left: 35%;
+  margin-left: 32.5%;
 }
 
 .small-font {
@@ -70,5 +70,5 @@ body {
   grid-column: 1;
   grid-row: 1;
   margin-top: 27.5%;
-  margin-left: 35%;
+  margin-left: 32.5%;
 }
