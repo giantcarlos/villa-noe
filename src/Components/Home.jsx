@@ -1,15 +1,35 @@
-import React from 'react'
+import React from 'react';
+import { motion } from 'framer-motion';
 
 function Home() {
+
+    const reveal = {
+        hidden: { x: 75, opacity: 0 },
+        show: { x: 0, opacity: 1 },
+    }
+    const item = {
+        hidden: { y: -1000 },
+        show: { y: 0 },
+        trans: { }
+    }
+    const item2 = {
+        hidden: { y: 25, opacity:0 },
+        show: { y: 0, opacity: 1 },
+    }
+    const item3 = {
+        hidden: { y: 10, opacity:0 },
+        show: { y: 0, opacity: 1 },
+      }
+
   return (
-    <section className="home">
+    <motion.section variants={item} initial="hidden" animate="show" transition={{duration: 1.25}} className="home">
         <div className="home-grid">
-            <img className="home-image" alt="Sunrise on Villa Noe Beach sign." src="sunrise.jpg" />
-            <h1 className="large-font">VILLA NOE BEACH</h1>
-            <h2 className="small-font">Quezon, Philippines</h2>
-            <button className="button">BOOK NOW</button>
+            <motion.img variants={reveal} initial="hidden" animate="show" transition={{duration: .875, delay:1.3}}className="home-image" alt="Sunrise on Villa Noe Beach sign." src="sunrise.jpg" />
+            <motion.h1 className="large-font" variants={item2} initial="hidden" animate="show" transition={{duration: .5, delay:1.25}}>VILLA NOE BEACH</motion.h1>
+            <motion.h2 className="small-font" variants={item3} initial="hidden" animate="show" transition={{duration: .25, delay:1.2}}>Quezon, Philippines</motion.h2>
+            <motion.button className="button" variants={item2} initial="hidden" animate="show" transition={{duration: .5, delay:1.35}}>BOOK NOW</motion.button>
         </div>
-    </section>
+    </motion.section>
   )
 }
 
