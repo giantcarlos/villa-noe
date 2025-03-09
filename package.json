@@ -11,6 +11,7 @@
   },
   "dependencies": {
     "latest": "^0.2.0",
+    "motion": "^12.4.10",
     "n": "^10.1.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
