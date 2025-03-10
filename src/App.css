@@ -31,8 +31,13 @@ body {
 .numbers {
   margin-top: 3.875rem;
   margin-bottom: 1.75rem;
-  margin-left: 60%;
+  margin-left: 57.5%;
   margin-right: 1rem;
+}
+
+.hamburger {
+  margin-top: 2.875rem;
+  margin-left: 2rem;
 }
 
 .home {
