@@ -29,16 +29,17 @@ body {
 }
 
 .numbers {
+  float: right;
   margin-top: 3.875rem;
   margin-bottom: 1.75rem;
-  margin-left: 57.5%;
+  margin-left: auto;
   margin-right: 1rem;
 }
 
 .hamburger {
   margin-top: 2.875rem;
   margin-left: 2rem;
-  margin-right: 2rem;
+  margin-right: 7rem;
 }
 
 .home {
@@ -71,6 +72,8 @@ body {
   grid-template-columns: repeat(2, 1fr);
   max-width: 100%;
   margin: 0 auto;
+  padding-bottom: 3rem;
+  padding-left: 2rem;
 }
 
 .home-image {
@@ -78,7 +81,7 @@ body {
   grid-row: 1;
   width: 85%;
   margin-top: 3.5rem;
-  margin-bottom: 8rem;
+  margin-bottom: 5rem;
 }
 
 .large-font {
@@ -87,7 +90,7 @@ body {
   grid-column: 1;
   grid-row: 1;
   margin-top: 24.5%;
-  margin-left: 32.5%;
+  margin-left: 12rem;
 }
 
 .small-font {
@@ -96,46 +99,71 @@ body {
   grid-column: 1;
   grid-row: 1;
   margin-top: 16%;
-  margin-left: 32.5%;
+  margin-left: 12rem;
 }
 
 button {
   grid-column: 1;
   grid-row: 1;
-  width: 32.5%;
-  height: 8.5%;
+  width: 15rem;
+  height: 4rem;
   color: inherit;
   border-color: inherit;
   border-style: solid;
   border-width: .1rem;
   background-color: rgb(0, 190, 190);
-  margin-top: 55%;
-  margin-left: 32.5%;
+  margin-top: auto;
+  margin-bottom: 18%;
+  margin-left: 12rem;
 }
 
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 1300px) {
+  .large-font {
+    margin-left: 6rem;
+  }
+  .small-font {
+    font-size: 1rem;
+    margin-left: 6rem;
+  }
+  .large-font {
+    font-size: 4.5rem;
+    margin-left: 6rem;
+  }
+  .button {
+    margin-left: 6rem;
+    margin-bottom: 12%;
+  }
+}
+
+@media only screen and (max-width: 1100px) {
   .logo-image {
     width: 5rem;
     margin-left: 4rem;
-  }
-  .numbers {
-    margin-left: 35%;
-    margin-right: 1rem;
-  }
+  } 
   .hamburger {
     margin-left: 1rem;
-    margin-right: 2rem;
+    margin-right: 4rem;
+  }
+  .small-font {
+    font-size: 1rem;
+    margin-left: 3rem;
+  }
+  .large-font {
+    font-size: 4rem;
+    margin-left: 3rem;
+  }
+  .button {
+    margin-left: 3rem;
+    margin-bottom: 5%;
   }
 }
 
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 800px) {
   .logo-image {
     width: 4rem;
     margin-left: 2rem;
   }
   .numbers {
-    margin-left: 12.5%;
-    margin-right: 1rem;
     margin-top: 3.25rem;
   }
   .hamburger {
@@ -145,6 +173,7 @@ button {
   }
   .home-grid {
     display: block;
+    padding-left: 0;;
     padding-bottom: 1rem;
   }
   .home-image {
@@ -169,7 +198,6 @@ button {
   button {
     display: block;
     width: 14rem;
-    height: 4rem;
     margin-top: 1.5rem;
     margin-left: 3rem;
     margin-right: auto;
