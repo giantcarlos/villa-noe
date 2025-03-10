@@ -22,7 +22,7 @@ body {
 }
 
 .logo-image {
-  width: 6%;
+  width: 6rem;
   margin-top: 1.75rem;
   margin-bottom: 1.75rem;
   margin-left: 7rem;
@@ -38,6 +38,7 @@ body {
 .hamburger {
   margin-top: 2.875rem;
   margin-left: 2rem;
+  margin-right: 2rem;
 }
 
 .home {
@@ -110,4 +111,36 @@ button {
   background-color: rgb(0, 190, 190);
   margin-top: 55%;
   margin-left: 32.5%;
+}
+
+@media only screen and (max-width: 1000px) {
+  .logo-image {
+    width: 5rem;
+    margin-left: 4rem;
+  }
+  .numbers {
+    margin-left: 35%;
+    margin-right: 1rem;
+  }
+  .hamburger {
+    margin-left: 1rem;
+    margin-right: 2rem;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .logo-image {
+    width: 4rem;
+    margin-left: 2rem;
+  }
+  .numbers {
+    margin-left: 12.5%;
+    margin-right: 1rem;
+    margin-top: 3.25rem;
+  }
+  .hamburger {
+    margin-left: .5rem;
+    margin-right: 2rem;
+    margin-top: 2.375rem;
+  }
 }
