@@ -113,7 +113,7 @@ body {
 
 .small-font-2 {
   text-align: left;
-  font-size: 1.125rem;
+  font-size: 1rem;
   grid-column: 2;
   grid-row: 1;
   margin-top: 15rem;
@@ -127,7 +127,7 @@ body {
   line-height: 2;
   margin-top: 20rem;
   margin-left: 6rem;
-  margin-right: 16rem;
+  margin-right: 15rem;
 }
 
 button {
