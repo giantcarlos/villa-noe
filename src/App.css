@@ -143,4 +143,36 @@ button {
     margin-right: 2rem;
     margin-top: 2.375rem;
   }
+  .home-grid {
+    display: block;
+    padding-bottom: 1rem;
+  }
+  .home-image {
+    width: 85%;
+    margin-top: 1.5rem;
+    margin-bottom: 0;
+  }
+  .small-font {
+    text-align: left;
+    font-size: 1rem;
+    margin-top: 2rem;
+    margin-left: 3rem;
+  }
+  .large-font {
+    text-align: left;
+    font-size: 4rem;
+    margin-top: 1.5rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    margin-bottom: 0;
+  }
+  button {
+    display: block;
+    width: 14rem;
+    height: 4rem;
+    margin-top: 1.5rem;
+    margin-left: 3rem;
+    margin-right: auto;
+    margin-bottom: 3rem;
+  }
 }
