@@ -82,10 +82,10 @@ body {
 
 .large-font {
   text-align: left;
-  font-size: 4.5rem;
+  font-size: 5rem;
   grid-column: 1;
   grid-row: 1;
-  margin-top: 25%;
+  margin-top: 24%;
   margin-left: 32.5%;
 }
 
