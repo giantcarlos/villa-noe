@@ -194,7 +194,6 @@ button {
 
 @media only screen and (max-width: 1100px) {
   .logo-image {
-    width: 5rem;
     margin-left: 4rem;
   } 
   .hamburger {
@@ -226,7 +225,8 @@ button {
     margin-top: .45rem;
   }
   .title {
-    margin-top: 1.5rem;
+    font-size: 1.5rem;
+    margin-top: 1.65rem;
   }
   .numbers {
     display: none;
