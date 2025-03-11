@@ -15,34 +15,46 @@ body {
   text-align: center;
 }
 
-.nav {
-  display: flex;
-  background-color: rgb(0, 190, 190);
-  color: antiquewhite;
+nav {
+  display: block;
+  color: rgb(40, 40, 40);
+  background-color: whitesmoke;
+  position: fixed;
+  width: 100%;
+  height: 6rem;
 }
 
 .logo-image {
-  width: 6rem;
-  margin-top: 1.75rem;
-  margin-bottom: 1.75rem;
+  float: left;
+  width: 5rem;
+  margin-top: .45rem;
   margin-left: 7rem;
+  margin-right: 2rem;
+}
+
+.title {
+  font-weight: 600;
+  font-size: 1.75rem;
+  color: rgb(0, 190, 190);
+  float: left;
+  margin-top: 2rem;
 }
 
 .numbers {
   float: right;
-  margin-top: 3.875rem;
-  margin-bottom: 1.75rem;
-  margin-left: auto;
-  margin-right: 1rem;
+  margin-top: 2.4rem;
+  margin-right: 2rem;
 }
 
 .hamburger {
-  margin-top: 2.875rem;
-  margin-left: 2rem;
+  float: right;
+  margin-top: 1.5rem;
+  margin-left: 0rem;
   margin-right: 7rem;
 }
 
 .home {
+  padding-top: 9rem;
   background-color: rgb(0, 190, 190);
   color: antiquewhite;
 }
@@ -201,18 +213,25 @@ button {
   }
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 850px) {
+  nav {
+    height: 5rem;
+  }
   .logo-image {
     width: 4rem;
     margin-left: 2rem;
+    margin-right: 1rem;
+  }
+  .title {
+    margin-top: 1.5rem;
   }
   .numbers {
-    margin-top: 3.25rem;
+    display: none;
   }
   .hamburger {
+    margin-top: 1rem;
     margin-left: .5rem;
     margin-right: 2rem;
-    margin-top: 2.375rem;
   }
   .home-grid {
     display: block;
