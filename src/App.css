@@ -217,7 +217,13 @@ button {
   margin-left: 6rem;
 }
 
-@media only screen and (max-width: 1300px) {
+@media only screen and (max-width: 1350px) {
+  .about-image {
+    width: 80%;
+    margin-top: 8rem;
+    margin-bottom: 2rem;
+    margin-left: 5rem;
+  }
   .large-font {
     margin-left: 6rem;
   }
@@ -225,13 +231,27 @@ button {
     font-size: 1rem;
     margin-left: 6rem;
   }
+  .small-font-2 {
+    margin-top: 11rem;
+    margin-left: 4rem;
+  }
   .large-font {
     font-size: 4.5rem;
     margin-left: 6rem;
   }
+  .paragraph {
+    margin-top: 15rem;
+    margin-left: 4rem;
+    margin-right: 8rem;
+  }
   .button {
     margin-left: 6rem;
     margin-bottom: 12%;
+  }
+  .button-2 {
+    margin-top: auto;
+    margin-bottom: 23%;
+    margin-left: 4rem;
   }
 }
 
@@ -239,6 +259,12 @@ button {
   .logo-image {
     margin-left: 4rem;
   } 
+  .about-image {
+    width: 85%;
+    margin-top: 6rem;
+    margin-bottom: 2rem;
+    margin-left: 3rem;
+  }
   .numbers {
     margin-right: 1rem;
   }
@@ -249,17 +275,31 @@ button {
     font-size: 1rem;
     margin-left: 3rem;
   }
+  .small-font-2 {
+    margin-top: 7rem;
+    margin-left: 3rem;
+  }
   .large-font {
     font-size: 4rem;
     margin-left: 3rem;
+  }
+  .paragraph {
+    margin-top: 10rem;
+    margin-left: 3rem;
+    margin-right: 4rem;
   }
   .button {
     margin-left: 3rem;
     margin-bottom: 5%;
   }
+  .button-2 {
+    margin-top: auto;
+    margin-bottom: 10%;
+    margin-left: 3rem;
+  }
 }
 
-@media only screen and (max-width: 825px) {
+@media only screen and (max-width: 850px) {
   nav {
     height: 5rem;
   }
