@@ -236,6 +236,9 @@ button {
     margin-left: .5rem;
     margin-right: 2rem;
   }
+  .home {
+    padding-top: 6.25rem;
+  }
   .home-grid {
     display: block;
     padding-left: 0;;
