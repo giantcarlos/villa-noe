@@ -38,6 +38,7 @@ nav {
   color: rgb(0, 190, 190);
   float: left;
   margin-top: 1.75rem;
+  z-index: 20;
 }
 
 .numbers {
@@ -58,9 +59,9 @@ nav {
 }
 
 .nav-links {
-  top: -300%;
+  top: -200%;
   left: -100%;
-  right: -100%;
+  right:-100%;
   position: fixed;
   background-color: rgb(44, 44, 44);
   width: 100%;
@@ -70,7 +71,7 @@ nav {
   align-items: center;
   flex-direction: column;
   gap: 1.5rem;
-  transition: 0.875s ease-in-out;
+  transition: 0.5s ease-in-out;
   transform: translateX(100%);
   z-index: 10;
   
