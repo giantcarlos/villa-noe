@@ -54,6 +54,43 @@ nav {
   margin-right: 7rem;
 }
 
+.nav-links {
+  top: 0;
+  left: -200%;
+  position: fixed;
+  background-color: rgb(44, 44, 44);
+  width: 35%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 1.5rem;
+  transition: 0.75s ease-in-out;
+  transform: translateX(100%);
+  z-index: 10;
+  
+}
+
+.nav-links-active {
+  top: 0;
+  left: 0;
+  position: fixed;
+  background-color: rgb(44, 44, 44);
+  opacity: 95%;
+  width: 35%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 1.5rem;
+  transition: 0.75s ease-in-out;
+  transform: translateX(0);
+  z-index: 10;
+  pointer-events: all;
+}
+
 .home {
   padding-top: 9rem;
   background-color: rgb(0, 190, 190);
@@ -219,6 +256,12 @@ button {
 @media only screen and (max-width: 825px) {
   nav {
     height: 5rem;
+  }
+  .nav-links {
+    width: 60%;
+  }
+  .nav-links-active {
+    width: 60%;
   }
   .logo-image {
     width: 4rem;
