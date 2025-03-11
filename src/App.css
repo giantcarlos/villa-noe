@@ -250,10 +250,25 @@ button {
     margin-top: 1.5rem;
     margin-bottom: 0;
   }
+  .about-image {
+    width: 80%;
+    margin-top: 5rem;
+    margin-bottom: 0rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
   .small-font {
     text-align: left;
     font-size: 1rem;
     margin-top: 2rem;
+    margin-left: 3rem;
+  }
+  .small-font-2 {
+    text-align: left;
+    font-size: 1rem;
+    grid-column: 2;
+    grid-row: 1;
+    margin-top: 3rem;
     margin-left: 3rem;
   }
   .large-font {
@@ -264,6 +279,15 @@ button {
     margin-right: 3rem;
     margin-bottom: 0;
   }
+  .paragraph {
+    grid-column: 1;
+    grid-row: 1;
+    text-align: left;
+    line-height: 2;
+    margin-top: 2rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
+  }
   button {
     display: block;
     width: 14rem;
@@ -271,5 +295,12 @@ button {
     margin-left: 3rem;
     margin-right: auto;
     margin-bottom: 3rem;
+  }
+  .button-2 {
+    width: 14rem;
+    background-color: inherit;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+    margin-left: 3rem;
   }
 }
