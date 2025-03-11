@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { motion } from 'framer-motion';
 import Hamburger from 'hamburger-react';
+import { HashLink } from 'react-router-hash-link';
 
 function NavBar() {
 
@@ -28,11 +29,11 @@ function NavBar() {
                 <Hamburger toggled={isOpen} toggle={setOpen}/>
                 </div>
                 <div className={active} onClick={navOff}>
-                    {/* <HashLink smooth to="#" className="links" scroll={el => scrollWithOffset(el)}>HOME ➤</HashLink>
-                    <HashLink smooth to="#lineup" className="links" scroll={el => scrollWithOffset2(el)}>LINEUP ➤</HashLink>
-                    <HashLink smooth to="#tickets" className="links" scroll={el => scrollWithOffset(el)}>TICKETS ➤</HashLink>
-                    <HashLink smooth to="#merch" className="links" scroll={el => scrollWithOffset(el)}>MERCH ➤</HashLink>
-                    <HashLink smooth to="#press" className="links" scroll={el => scrollWithOffset3(el)}>PRESS ➤</HashLink> */}
+                    {/* <HashLink to="#" className="links" >HOME ➤</HashLink>
+                    <HashLink to="#lineup" className="links" >LINEUP ➤</HashLink>
+                    <HashLink to="#tickets" className="links" >TICKETS ➤</HashLink>
+                    <HashLink to="#merch" className="links" >MERCH ➤</HashLink>
+                    <HashLink to="#press" className="links" >PRESS ➤</HashLink> */}
                 </div>
             <div className="numbers">0906-519-7126 / 0921-784-9062</div>
       </motion.nav>
