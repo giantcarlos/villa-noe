@@ -151,6 +151,15 @@ nav {
   margin-left: 11rem;
 }
 
+.rooms-image {
+  grid-column: 2;
+  grid-row: 1;
+  width: 75%;
+  margin-top: 11rem;
+  margin-bottom: 6rem;
+  margin-right: 10rem;
+}
+
 .large-font {
   text-align: left;
   font-size: 5rem;
@@ -178,6 +187,15 @@ nav {
   margin-left: 6rem;
 }
 
+.small-font-3 {
+  text-align: left;
+  font-size: 1rem;
+  grid-column: 1;
+  grid-row: 1;
+  margin-top: 11rem;
+  margin-left: 14rem;
+}
+
 .paragraph {
   grid-column: 2;
   grid-row: 1;
@@ -186,6 +204,18 @@ nav {
   margin-top: 20rem;
   margin-left: 6rem;
   margin-right: 15rem;
+}
+
+.bullets {
+  grid-column: 1;
+  grid-row: 1;
+  text-align: left;
+  line-height: .75;
+  font-weight: 600;
+  font-size: 1.5rem;
+  margin-top: 14rem;
+  margin-left: 11.5rem;
+  margin-right: 1rem;
 }
 
 button {
@@ -218,15 +248,27 @@ button {
   margin-left: 6rem;
 }
 
+.button-3 {
+  grid-column: 1;
+  grid-row: 1;
+  width: 15rem;
+  height: 4rem;
+  color: inherit;
+  border-color: inherit;
+  border-style: solid;
+  border-width: .1rem;
+  background-color: inherit;
+  margin-top: auto;
+  margin-bottom: 8%;
+  margin-left: 14rem;
+}
+
 @media only screen and (max-width: 1350px) {
   .about-image {
     width: 80%;
     margin-top: 6rem;
     margin-bottom: 2rem;
     margin-left: 5rem;
-  }
-  .large-font {
-    margin-left: 6rem;
   }
   .small-font {
     font-size: 1rem;
