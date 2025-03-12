@@ -192,7 +192,7 @@ nav {
   font-size: 1rem;
   grid-column: 1;
   grid-row: 1;
-  margin-top: 11rem;
+  margin-top: 10rem;
   margin-left: 14rem;
 }
 
@@ -212,54 +212,45 @@ nav {
   text-align: left;
   line-height: .75;
   font-weight: 600;
-  font-size: 1.5rem;
-  margin-top: 14rem;
+  font-size: 1.75rem;
+  margin-top: 13.5rem;
   margin-left: 11.5rem;
   margin-right: 1rem;
 }
 
 button {
-  grid-column: 1;
-  grid-row: 1;
+  display: block;
   width: 15rem;
   height: 4rem;
   color: inherit;
   border-color: inherit;
   border-style: solid;
   border-width: .1rem;
+}
+
+.button {
+  grid-column: 1;
+  grid-row: 1;
   background-color: rgb(0, 190, 190);
-  margin-top: auto;
-  margin-bottom: 18%;
+  margin-top: 26rem;
   margin-left: 12rem;
 }
 
 .button-2 {
   grid-column: 2;
   grid-row: 1;
+  background-color: antiquewhite;
   width: 15rem;
   height: 4rem;
-  color: inherit;
-  border-color: inherit;
-  border-style: solid;
-  border-width: .1rem;
-  background-color: inherit;
-  margin-top: auto;
-  margin-bottom: 28%;
+  margin-top: 39rem;
   margin-left: 6rem;
 }
 
 .button-3 {
   grid-column: 1;
   grid-row: 1;
-  width: 15rem;
-  height: 4rem;
-  color: inherit;
-  border-color: inherit;
-  border-style: solid;
-  border-width: .1rem;
   background-color: inherit;
-  margin-top: auto;
-  margin-bottom: 8%;
+  margin-top: 32.5rem;
   margin-left: 14rem;
 }
 
@@ -270,6 +261,12 @@ button {
     margin-bottom: 2rem;
     margin-left: 5rem;
   }
+  .rooms-image {
+    width: 80%;
+    margin-top: 9.5rem;
+    margin-bottom: 6rem;
+    margin-right: 8rem;
+  }
   .small-font {
     font-size: 1rem;
     margin-left: 6rem;
@@ -277,6 +274,10 @@ button {
   .small-font-2 {
     margin-top: 11rem;
     margin-left: 4rem;
+  }
+  .small-font-3 {
+    margin-top: 8rem;
+    margin-left: 6rem;
   }
   .large-font {
     font-size: 4.5rem;
@@ -287,14 +288,23 @@ button {
     margin-left: 4rem;
     margin-right: 8rem;
   }
+  .bullets {
+    font-size: 1.5rem;
+    margin-top: 11rem;
+    margin-left: 3.5rem;
+    margin-right: 1rem;
+  }
   .button {
     margin-left: 6rem;
-    margin-bottom: 12%;
+    margin-top: 22rem;
   }
   .button-2 {
-    margin-top: auto;
-    margin-bottom: 23%;
+    margin-top: 32rem;
     margin-left: 4rem;
+  }
+  .button-3 {
+    margin-top: 27rem;
+    margin-left: 6rem;
   }
 }
 
@@ -307,6 +317,12 @@ button {
     margin-top: 6rem;
     margin-bottom: 2rem;
     margin-left: 3rem;
+  }
+  .rooms-image {
+    width: 85%;
+    margin-top: 9.5rem;
+    margin-bottom: 6rem;
+    margin-right: 6rem;
   }
   .numbers {
     margin-right: 1rem;
@@ -322,6 +338,10 @@ button {
     margin-top: 7rem;
     margin-left: 3rem;
   }
+  .small-font-3 {
+    margin-top: 8rem;
+    margin-left: 4rem;
+  }
   .large-font {
     font-size: 4rem;
     margin-left: 3rem;
@@ -331,14 +351,23 @@ button {
     margin-left: 3rem;
     margin-right: 4rem;
   }
+  .bullets {
+    font-size: 1.5rem;
+    margin-top: 10.5rem;
+    margin-left: 1.5rem;
+    margin-right: 1rem;
+  }
   .button {
     margin-left: 3rem;
-    margin-bottom: 5%;
+    margin-top: 18.5rem;
   }
   .button-2 {
-    margin-top: auto;
-    margin-bottom: 10%;
+    margin-top: 30rem;
     margin-left: 3rem;
+  }
+  .button-3 {
+    margin-top: 26rem;
+    margin-left: 4rem;
   }
 }
 
@@ -385,7 +414,14 @@ button {
   }
   .about-image {
     width: 80%;
-    margin-top: 5rem;
+    margin-top: 4rem;
+    margin-bottom: 0rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .rooms-image {
+    width: 82.5%;
+    margin-top: 4rem;
     margin-bottom: 0rem;
     margin-left: auto;
     margin-right: auto;
@@ -404,13 +440,18 @@ button {
     margin-top: 3rem;
     margin-left: 3rem;
   }
+  .small-font-3 {
+    text-align: left;
+    font-size: 1rem;
+    margin-top: 3rem;
+    margin-left: 3rem;
+  }
   .large-font {
     text-align: left;
     font-size: 4rem;
     margin-top: 1.5rem;
     margin-left: 3rem;
     margin-right: 3rem;
-    margin-bottom: 0;
   }
   .paragraph {
     grid-column: 1;
@@ -421,19 +462,27 @@ button {
     margin-left: 3rem;
     margin-right: 3rem;
   }
+  .bullets {
+    font-size: 1.5rem;
+    margin-top: 2rem;
+    margin-left: .5rem;
+  }
   button {
-    display: block;
     width: 14rem;
-    margin-top: 1.5rem;
+  }
+  .button {
     margin-left: 3rem;
-    margin-right: auto;
-    margin-bottom: 3rem;
+    margin-top: -1.625rem;
+    margin-bottom: 2.5rem;
   }
   .button-2 {
-    width: 14rem;
-    background-color: inherit;
     margin-top: 2rem;
-    margin-bottom: 3rem;
+    margin-bottom: 2.5rem;
+    margin-left: 3rem;
+  }
+  .button-3 {
+    margin-top: 2rem;
+    margin-bottom: 2.5rem;
     margin-left: 3rem;
   }
 }
