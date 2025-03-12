@@ -192,7 +192,7 @@ nav {
   font-size: 1rem;
   grid-column: 1;
   grid-row: 1;
-  margin-top: 10rem;
+  margin-top: 10.5rem;
   margin-left: 14rem;
 }
 
@@ -213,7 +213,7 @@ nav {
   line-height: .75;
   font-weight: 600;
   font-size: 1.75rem;
-  margin-top: 13.5rem;
+  margin-top: 13rem;
   margin-left: 11.5rem;
   margin-right: 1rem;
 }
@@ -250,7 +250,7 @@ button {
   grid-column: 1;
   grid-row: 1;
   background-color: inherit;
-  margin-top: 32.5rem;
+  margin-top: 32rem;
   margin-left: 14rem;
 }
 
