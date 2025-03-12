@@ -171,10 +171,10 @@ nav {
 
 .small-font {
   text-align: left;
-  font-size: 1.125rem;
+  font-size: 1rem;
   grid-column: 1;
   grid-row: 1;
-  margin-top: 16%;
+  margin-top: 7rem;
   margin-left: 12rem;
 }
 
