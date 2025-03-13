@@ -104,24 +104,14 @@ nav {
   color: antiquewhite;
 }
 
-.about {
+.colors-1 {
+  background-color: rgb(0, 190, 190);
+  color: antiquewhite;
+}
+
+.colors-2 {
   background-color: antiquewhite;
   color:rgb(40, 40, 40);
-}
-
-.rooms {
-  background-color: rgb(0, 190, 190);
-  color: antiquewhite;
-}
-
-.amenities {
-  background-color: antiquewhite;
-  color: rgb(0, 190, 190);
-}
-
-.contact {
-  background-color: rgb(0, 190, 190);
-  color: antiquewhite;
 }
 
 .home-grid {
@@ -160,6 +150,15 @@ nav {
   margin-right: 10rem;
 }
 
+.amenities-image {
+  grid-column: 1;
+  grid-row: 1;
+  width: 80%;
+  margin-top: 11rem;
+  margin-bottom: 8rem;
+  margin-left: 10rem;
+}
+
 .large-font {
   text-align: left;
   font-size: 5rem;
@@ -185,7 +184,6 @@ nav {
   grid-row: 1;
   margin-top: 15rem;
   margin-left: 6rem;
-  
 }
 
 .small-font-3 {
@@ -197,12 +195,31 @@ nav {
   margin-left: 14rem;
 }
 
+.small-font-4 {
+  text-align: left;
+  font-size: 1rem;
+  grid-column: 2;
+  grid-row: 1;
+  margin-top: 10.5rem;
+  margin-left: 6rem;
+}
+
 .paragraph {
   grid-column: 2;
   grid-row: 1;
   text-align: left;
   line-height: 2;
   margin-top: 20rem;
+  margin-left: 6rem;
+  margin-right: 15rem;
+}
+
+.paragraph-2 {
+  grid-column: 2;
+  grid-row: 1;
+  text-align: left;
+  line-height: 2;
+  margin-top: 14rem;
   margin-left: 6rem;
   margin-right: 15rem;
 }
@@ -219,11 +236,24 @@ nav {
   margin-right: 1rem;
 }
 
+.bullets-2 {
+  grid-column: 2;
+  grid-row: 1;
+  text-align: left;
+  line-height: .75;
+  font-weight: 600;
+  font-size: 1.75rem;
+  margin-top: 18rem;
+  margin-left: 3.5rem;
+  margin-right: 1rem;
+}
+
 button {
   display: block;
   width: 15rem;
   height: 4rem;
   color: inherit;
+  background-color: inherit;
   border-color: inherit;
   border-style: solid;
   border-width: .1rem;
@@ -232,7 +262,6 @@ button {
 .button {
   grid-column: 1;
   grid-row: 1;
-  background-color: rgb(0, 190, 190);
   margin-top: 26rem;
   margin-left: 12rem;
 }
@@ -240,7 +269,6 @@ button {
 .button-2 {
   grid-column: 2;
   grid-row: 1;
-  background-color: antiquewhite;
   width: 15rem;
   height: 4rem;
   margin-top: 39rem;
@@ -250,9 +278,18 @@ button {
 .button-3 {
   grid-column: 1;
   grid-row: 1;
-  background-color: inherit;
   margin-top: 32rem;
   margin-left: 14rem;
+}
+
+.button-4 {
+  grid-column: 2;
+  grid-row: 1;
+  background-color: antiquewhite;
+  width: 15rem;
+  height: 4rem;
+  margin-top: 33rem;
+  margin-left: 6rem;
 }
 
 @media only screen and (max-width: 1350px) {
