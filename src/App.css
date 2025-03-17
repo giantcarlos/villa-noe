@@ -98,6 +98,14 @@ nav {
   pointer-events: all;
 }
 
+.links {
+  color: antiquewhite;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 2rem;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
 .home {
   padding-top: 9rem;
   background-color: rgb(0, 190, 190);
