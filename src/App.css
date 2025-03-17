@@ -164,7 +164,7 @@ nav {
   font-size: 5rem;
   grid-column: 1;
   grid-row: 1;
-  margin-top: 24.5%;
+  margin-top: 11rem;
   margin-left: 12rem;
 }
 
@@ -323,6 +323,7 @@ button {
   }
   .small-font {
     font-size: 1rem;
+    margin-top: 5.5rem;
     margin-left: 6rem;
   }
   .small-font-2 {
@@ -339,6 +340,7 @@ button {
   }
   .large-font {
     font-size: 4.5rem;
+    margin-top: 9rem;
     margin-left: 6rem;
   }
   .paragraph {
@@ -410,6 +412,7 @@ button {
   }
   .small-font {
     font-size: 1rem;
+    margin-top: 4rem;
     margin-left: 3rem;
   }
   .small-font-2 {
@@ -426,6 +429,7 @@ button {
   }
   .large-font {
     font-size: 4rem;
+    margin-top: 7rem;
     margin-left: 3rem;
   }
   .paragraph {
@@ -451,7 +455,7 @@ button {
   }
   .button {
     margin-left: 3rem;
-    margin-top: 18.5rem;
+    margin-top: 18rem;
   }
   .button-2 {
     margin-top: 30rem;
