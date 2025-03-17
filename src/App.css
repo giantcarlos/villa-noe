@@ -359,6 +359,12 @@ button {
     margin-bottom: 8rem;
     margin-left: 6rem;
   }
+  .contact-image {
+    width: 80%;
+    margin-top: 10.5rem;
+    margin-bottom: 7rem;
+    margin-right: 8rem;
+  }
   .small-font {
     font-size: 1rem;
     margin-top: 5.5rem;
@@ -454,6 +460,12 @@ button {
     margin-top: 10rem;
     margin-bottom: 7rem;
     margin-left: 3rem;
+  }
+  .contact-image {
+    width: 85%;
+    margin-top: 10.5rem;
+    margin-bottom: 7rem;
+    margin-right: 6rem;
   }
   .numbers {
     margin-right: 1rem;
