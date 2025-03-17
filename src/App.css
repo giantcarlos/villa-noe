@@ -159,6 +159,15 @@ nav {
   margin-left: 10rem;
 }
 
+.contact-image {
+  grid-column: 2;
+  grid-row: 1;
+  width: 75%;
+  margin-top: 11rem;
+  margin-bottom: 7rem;
+  margin-right: 10rem;
+}
+
 .large-font {
   text-align: left;
   font-size: 5rem;
@@ -204,6 +213,15 @@ nav {
   margin-left: 6rem;
 }
 
+.small-font-5 {
+  text-align: left;
+  font-size: 3.5rem;
+  grid-column: 1;
+  grid-row: 1;
+  margin-top: 12.5rem;
+  margin-left: 14rem;
+}
+
 .paragraph {
   grid-column: 2;
   grid-row: 1;
@@ -232,6 +250,17 @@ nav {
   margin-top: 14rem;
   margin-left: 6rem;
   margin-right: 15rem;
+}
+
+.paragraph-4 {
+  grid-column: 1;
+  grid-row: 1;
+  text-align: left;
+  font-size: 1.15rem;
+  line-height: 2;
+  margin-top: 19rem;
+  margin-left: 14rem;
+  margin-right: 6rem;
 }
 
 .bullets {
@@ -300,6 +329,15 @@ button {
   height: 4rem;
   margin-top: 33rem;
   margin-left: 6rem;
+}
+
+.facebook-image {
+  grid-column: 1;
+  grid-row: 1;
+  width: 33%;
+  margin-top: 29rem;
+  margin-bottom: 8rem;
+  margin-left: 13rem;
 }
 
 @media only screen and (max-width: 1350px) {
