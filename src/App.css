@@ -63,7 +63,7 @@ nav {
   top: 0%;
   left: -200%;
   position: fixed;
-  background-color: rgb(44, 44, 44);
+  background-color: rgba(44, 44, 44, 0.975);
   opacity: 97%;
   width: 35%;
   height: 100%;
@@ -71,7 +71,7 @@ nav {
   padding-top: 7rem;
   align-items: center;
   flex-direction: column;
-  gap: 3rem;
+  gap: 2rem;
   transition: 0.75s ease-in-out;
   transform: translateX(100%);
   z-index: 10;
@@ -82,15 +82,14 @@ nav {
   top: 0;
   left: 0;
   position: fixed;
-  background-color: rgb(44, 44, 44);
-  opacity: 97%;
+  background-color: rgba(44, 44, 44, 0.975);
   width: 35%;
   height: 100%;
   display: flex;
-  padding-top: 7rem;
+  padding-top: 10rem;
   align-items: center;
   flex-direction: column;
-  gap: 3rem;
+  gap: 2rem;
   transition: 0.75s ease-in-out;
   transform: translateX(0);
   z-index: 10;
