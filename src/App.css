@@ -67,10 +67,10 @@ nav {
   width: 35%;
   height: 100%;
   display: flex;
-  justify-content: center;
+  padding-top: 7rem;
   align-items: center;
   flex-direction: column;
-  gap: 1.5rem;
+  gap: 3rem;
   transition: 0.75s ease-in-out;
   transform: translateX(100%);
   z-index: 10;
@@ -86,7 +86,7 @@ nav {
   width: 35%;
   height: 100%;
   display: flex;
-  justify-content: center;
+  padding-top: 7rem;
   align-items: center;
   flex-direction: column;
   gap: 3rem;
@@ -102,6 +102,19 @@ nav {
   font-weight: 600;
   font-size: 2rem;
   font-family: Helvetica, Arial, sans-serif;
+}
+
+.webmaster {
+  margin-top: 7rem;
+  margin-left: 1.75rem;
+  margin-right: 1.75rem;
+  color: antiquewhite;
+  line-height: 1.75;
+}
+
+.portfolio {
+  color: rgb(0, 190, 190);
+  text-decoration: none;
 }
 
 .home {
