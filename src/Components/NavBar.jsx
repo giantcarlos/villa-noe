@@ -29,11 +29,11 @@ function NavBar() {
                 <Hamburger toggled={isOpen} toggle={setOpen}/>
                 </div>
                 <div className={active} onClick={navOff}>
-                    {/* <HashLink to="#" className="links" >HOME ➤</HashLink>
+                    <HashLink to="#" className="links" >HOME ➤</HashLink>
                     <HashLink to="#lineup" className="links" >LINEUP ➤</HashLink>
                     <HashLink to="#tickets" className="links" >TICKETS ➤</HashLink>
                     <HashLink to="#merch" className="links" >MERCH ➤</HashLink>
-                    <HashLink to="#press" className="links" >PRESS ➤</HashLink> */}
+                    <HashLink to="#press" className="links" >PRESS ➤</HashLink>
                 </div>
             <div className="numbers">0906-519-7126 / 0921-784-9062</div>
       </motion.nav>
