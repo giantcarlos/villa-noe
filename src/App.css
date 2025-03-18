@@ -316,13 +316,17 @@ button {
   border-color: inherit;
   border-style: solid;
   border-width: .1rem;
+  cursor: pointer;
 }
 
 .button {
+  color: inherit;
+  background-color: inherit;
   grid-column: 1;
   grid-row: 1;
   margin-top: 26rem;
   margin-left: 12rem;
+  text-decoration: none;
 }
 
 .button-2 {
