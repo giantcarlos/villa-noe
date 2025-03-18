@@ -442,6 +442,7 @@ button {
     margin-right: 1rem;
   }
   .button {
+    display: flex;
     margin-left: 6rem;
     margin-top: 22rem;
   }
