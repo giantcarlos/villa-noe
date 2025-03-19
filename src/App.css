@@ -221,7 +221,7 @@ nav {
   grid-column: 1;
   grid-row: 1;
   margin-top: 11.5rem;
-  margin-left: 14rem;
+  margin-left: 12rem;
 }
 
 .small-font-4 {
@@ -239,7 +239,7 @@ nav {
   grid-column: 1;
   grid-row: 1;
   margin-top: 12.5rem;
-  margin-left: 14rem;
+  margin-left: 12rem;
 }
 
 .paragraph {
@@ -258,7 +258,7 @@ nav {
   text-align: left;
   line-height: 2;
   margin-top: 15rem;
-  margin-left: 14rem;
+  margin-left: 12rem;
   margin-right: 6rem;
 }
 
@@ -279,7 +279,7 @@ nav {
   font-size: 1.15rem;
   line-height: 2;
   margin-top: 18.5rem;
-  margin-left: 14rem;
+  margin-left: 12rem;
   margin-right: 6rem;
 }
 
@@ -342,7 +342,7 @@ button {
   grid-column: 1;
   grid-row: 1;
   margin-top: 30rem;
-  margin-left: 14rem;
+  margin-left: 12rem;
 }
 
 .button-4 {
@@ -360,7 +360,7 @@ button {
   grid-row: 1;
   margin-top: 29rem;
   margin-bottom: 8rem;
-  margin-left: 13rem;
+  margin-left: 11rem;
   display:flex;
 }
 
@@ -532,7 +532,7 @@ button {
   .paragraph-2 {
     margin-top: 11rem;
     margin-left: 4rem;
-    margin-right: 4rem;
+    margin-right: 3rem;
   }
   .paragraph-3 {
     margin-top: 11rem;
@@ -542,7 +542,7 @@ button {
   .paragraph-4 {
     margin-top: 15.5rem;
     margin-left: 5rem;
-    margin-right: 4rem;
+    margin-right: 3rem;
   }
   .bullets {
     font-size: 1.5rem;
