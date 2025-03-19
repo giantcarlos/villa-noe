@@ -194,7 +194,7 @@ nav {
   grid-column: 1;
   grid-row: 1;
   margin-top: 11rem;
-  margin-left: 12rem;
+  margin-left: 10rem;
 }
 
 .small-font {
@@ -203,7 +203,7 @@ nav {
   grid-column: 1;
   grid-row: 1;
   margin-top: 7rem;
-  margin-left: 12rem;
+  margin-left: 10rem;
 }
 
 .small-font-2 {
@@ -325,7 +325,7 @@ button {
   grid-column: 1;
   grid-row: 1;
   margin-top: 26rem;
-  margin-left: 12rem;
+  margin-left: 10rem;
   text-decoration: none;
 }
 
