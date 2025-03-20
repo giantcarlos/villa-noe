@@ -1,6 +1,10 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { HashLink } from 'react-router-hash-link';
+import About from './About';
+import Rooms from './Rooms';
+import Amenities from './Amenities';
+import Contact from './Contact';
 
 function Home() {
 
@@ -25,6 +29,7 @@ function Home() {
     }
 
   return (
+    <>
     <motion.section variants={item} initial="hidden" animate="show" transition={{duration: 1, delay: .125}} className="home">
         <div className="home-grid">
             <motion.img variants={reveal} initial="hidden" animate="show" transition={{duration: .8, delay: 1.1375}}className="home-image" alt="Sunrise on Villa Noe Beach sign." src="sunrise.jpg" />
@@ -35,6 +40,11 @@ function Home() {
             </HashLink>
         </div>
     </motion.section>
+    <About />
+    <Rooms />
+    <Amenities />
+    <Contact />
+    </>
   )
 }
 
