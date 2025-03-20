@@ -369,7 +369,6 @@ button {
 
 .return {
   color: inherit;
-  margin-top: 5rem;
 }
 
 .details-title {
@@ -379,6 +378,7 @@ button {
 }
 
 .about-details {
+  display: block;
   text-align: left;
   padding-top: 4rem;
   padding-bottom: 15rem;
