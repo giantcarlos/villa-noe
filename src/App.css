@@ -342,10 +342,13 @@ button {
 }
 
 .button-3 {
+  color: inherit;
+  background-color: inherit;
   grid-column: 1;
   grid-row: 1;
   margin-top: 30rem;
   margin-left: 12rem;
+  text-decoration: none;
 }
 
 .button-4 {
