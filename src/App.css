@@ -364,6 +364,11 @@ button {
   display:flex;
 }
 
+.details-title {
+  font-weight: 600;
+  margin-bottom: 2rem;
+}
+
 .about-details {
   text-align: left;
   padding-top: 10rem;
