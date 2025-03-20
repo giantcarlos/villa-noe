@@ -188,6 +188,30 @@ nav {
   margin-right: 10rem;
 }
 
+figure {
+  display: inline-block;
+}
+
+figure figcaption {
+  font-size: .85rem;
+  margin-top: -.5rem;
+  text-align: center;
+}
+
+.couple-image {
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
+}
+
+.couple-image > img {
+  width: 100%;
+}
+
+.noe-paragraph {
+  float: right;
+}
+
 .large-font {
   text-align: left;
   font-size: 5rem;
@@ -383,11 +407,11 @@ button {
   margin-bottom: 2rem;
 }
 
-.about-details {
+.details {
   display: block;
   text-align: left;
   padding-top: 2rem;
-  padding-bottom: 15rem;
+  padding-bottom: 6rem;
   width: 55%;
   margin-left: auto;
   margin-right: auto;
@@ -600,6 +624,9 @@ button {
     margin-top: 25rem;
     margin-left: 4rem;
   }
+  .details {
+    width: 70%;
+  }
 }
 
 @media only screen and (max-width: 850px) {
@@ -785,5 +812,8 @@ button {
     margin-top: 2rem;
     margin-left: 2rem;
     margin-bottom: 4rem;
+  }
+  .details {
+    width: 85%;
   }
 }
