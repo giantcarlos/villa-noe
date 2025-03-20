@@ -373,14 +373,14 @@ button {
 
 .details-title {
   font-weight: 600;
-  margin-top: 2rem;
+  margin-top: 4rem;
   margin-bottom: 2rem;
 }
 
 .about-details {
   display: block;
   text-align: left;
-  padding-top: 4rem;
+  padding-top: 2rem;
   padding-bottom: 15rem;
   width: 55%;
   margin-left: auto;
