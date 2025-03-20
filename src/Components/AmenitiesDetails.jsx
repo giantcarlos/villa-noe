@@ -47,9 +47,11 @@ function AmenitiesDetails() {
                   <ul>Kayaks - 300/hour</ul>
                   <ul>Paddleboards - 250/hour</ul>
                   <ul>Skimboards - 200/hour</ul>
-                  <ul>*For the latest prices and availability, send us a message on&nbsp;
-                  <a className="details-link" href='https://www.facebook.com/VillaNoeBeach/' target="_blank">Facebook</a> or call us at 0906-519-7126 / 0921-784-9062.</ul>
                 </motion.div>
+                <motion.p className="details-contact" variants={item2}>
+                    *For the latest prices and availability, send us a message on&nbsp;
+                    <a className="details-link" href='https://www.facebook.com/VillaNoeBeach/' target="_blank">Facebook</a> or call us at 0906-519-7126 / 0921-784-9062.
+                </motion.p>
             </motion.div>
       </motion.section>
   )
