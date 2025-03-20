@@ -364,14 +364,20 @@ button {
   display:flex;
 }
 
+.return {
+  color: inherit;
+  margin-top: 5rem;
+}
+
 .details-title {
   font-weight: 600;
+  margin-top: 2rem;
   margin-bottom: 2rem;
 }
 
 .about-details {
   text-align: left;
-  padding-top: 10rem;
+  padding-top: 4rem;
   padding-bottom: 15rem;
   width: 55%;
   margin-left: auto;
