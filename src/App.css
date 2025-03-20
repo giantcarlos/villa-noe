@@ -369,6 +369,7 @@ button {
 
 .return {
   color: inherit;
+  text-decoration: none;
 }
 
 .details-title {

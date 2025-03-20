@@ -34,7 +34,7 @@ function AboutDetails() {
     <motion.section variants={item} initial="hidden" animate="show" transition={{duration: 1.125, delay: .25}} className="colors-2">
         <motion.div variants={container} initial="hidden" animate="show" className="about-details">
             <motion.div variants={item2}>
-                <Link className="return" to="/">Return to home</Link>
+                <Link className="return" to="/">← Return to home</Link>
             </motion.div>
             <motion.div variants={item2} className="details-title">A History of Villa Noe Beach</motion.div>
             <motion.p variants={item2}>Villa Noe Beach was originally a private beach house, named in honor of the late Noe V. Taiño, a World War II veteran and father of the current owners. The land, located on Cagbalete Island, was passed down through generations, tracing back to Don Benedicto Pansacola, whose daughter, Doña Maria, married Don Silverio Taiño, a former El Presidente of Mauban. Among their seven children was Noe Taiño.</motion.p>
