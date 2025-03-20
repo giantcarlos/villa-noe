@@ -25,7 +25,7 @@ function Home() {
         show: {
           opacity: 1,
           transition: {
-            delayChildren: 1.25,
+            delayChildren: 1.375,
             staggerChildren: 0.15
           }
         }

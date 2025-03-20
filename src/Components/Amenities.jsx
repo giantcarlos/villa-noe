@@ -22,7 +22,7 @@ function Amenities() {
 
   return (
     <section className="colors-2">
-            <motion.div id="amenities" className="home-grid" variants={container} initial="hidden" whileInView="show" viewport={{ amount: .35, once: true }}>
+            <motion.div id="amenities" className="home-grid" variants={container} initial="hidden" whileInView="show" viewport={{ amount: .45, once: true }}>
                 <motion.img className="amenities-image" variants={item} alt="Engagement photoshoot at Bonsai Island" src="doftrix.jpg" />
                 <motion.h2 className="small-font-4" variants={item} >AMENITIES</motion.h2>
                 <motion.p className="paragraph-3" variants={item} >There’s more to enjoy beyond the shoreline. Challenge friends to a game of beach volleyball, explore the island’s beauty with our guided tours, or paddle along the coast with our kayaks. Unwind with a relaxing massage, test your skills at the pool table, or sing your heart out with karaoke. Whether you’re seeking adventure or relaxation, there’s something for everyone to enjoy.</motion.p>

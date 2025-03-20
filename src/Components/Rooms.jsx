@@ -22,7 +22,7 @@ function Rooms() {
 
   return (
     <section id="rooms" className="colors-1">
-          <motion.div className="home-grid" variants={container} initial="hidden" whileInView="show" viewport={{ amount: .35, once: true }} >
+          <motion.div className="home-grid" variants={container} initial="hidden" whileInView="show" viewport={{ amount: .45, once: true }} >
                 <motion.img className="rooms-image" variants={item} alt="Cottages at Villa Noe." src="cottage.jpg" />
                 <motion.h2 className="small-font-3" variants={item} >OUR ROOMS</motion.h2>
                 <motion.p className="paragraph-2" variants={item} >Villa Noe Beach offers a range of accommodations to suit every traveler. Stay in a rustic cottage, wake up to the ocean in a beachfront room, or enjoy the comfort of an air-conditioned space. For a more open experience, relax in an open-air cabana or camp under the stars with our tent options.</motion.p>
