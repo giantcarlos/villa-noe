@@ -42,12 +42,12 @@ function Home() {
     <NavBar />
     <motion.section variants={item} initial="hidden" animate="show" transition={{duration: 1, delay: .125}} className="home">
         <motion.div variants={container} initial="hidden" animate="show" className="home-grid">
+        <motion.img variants={item2} className="home-image" alt="Sunrise on Villa Noe Beach sign." src="sunrise.jpg" />
             <motion.h2 variants={item2} className="small-font" >Cagbalete Island, Philippines</motion.h2>
             <motion.h1 variants={item2} className="large-font" >VILLA NOE BEACH</motion.h1>
             <HashLink className="button" to="#contact" scroll={el => scrollWithOffset2(el)}>
                 <motion.button variants={item2} >BOOK NOW</motion.button>
             </HashLink>
-            <motion.img variants={item2} className="home-image" alt="Sunrise on Villa Noe Beach sign." src="sunrise.jpg" />
         </motion.div>
     </motion.section>
     <About />
