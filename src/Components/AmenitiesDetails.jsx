@@ -38,14 +38,6 @@ function AmenitiesDetails() {
                 </motion.div>
                 <motion.div variants={item2} className="details-title">Amenities and Resort Activities</motion.div>
                 <motion.div variants={item2}>
-                  <ul></ul>
-                  <ul></ul>
-                  <ul></ul>
-                  <ul></ul>
-                  <ul></ul>
-                  <ul></ul>
-                </motion.div>
-                <motion.div variants={item2}>
                   <ul>Beach Volleyball - 100/hour</ul>
                   <ul>Billiards - 300/hour</ul>
                   <ul>Catering - Varies*</ul>

@@ -9,7 +9,7 @@ function RoomsDetails() {
           },[])
     
         const item = {
-            hidden: { y: -1000 },
+            hidden: { y: -1800 },
             show: { y: 0 },
             trans: { }
         }
@@ -31,14 +31,14 @@ function RoomsDetails() {
           }
 
   return (
-    <motion.section variants={item} initial="hidden" animate="show" transition={{duration: 1, delay: .25}} className="colors-2">
+    <motion.section variants={item} initial="hidden" animate="show" transition={{duration: 1.25, delay: .25}} className="colors-2">
             <motion.div variants={container} initial="hidden" animate="show" className="details">
                 <motion.div variants={item2}>
                     <Link className="return" to="/">← Return to home</Link>
                 </motion.div>
                 <motion.div variants={item2} className="details-title">Our Rooms</motion.div>
                 <motion.figure variants={item2} className="couple-image">
-                    <img src="aircon.jpeg" alt="Noe and Cornelia Taino."></img>
+                    <img src="aircon.jpeg" alt="Air-conditioned rooms."></img>
                     <figcaption className="couple-cap">Air-Conditioned Room</figcaption>
                 </motion.figure>
                 <motion.div variants={item2}>
@@ -67,7 +67,6 @@ function RoomsDetails() {
                   <ul></ul>
                   <ul></ul>
                 </motion.div>
-                  
             </motion.div>
         </motion.section>
   )

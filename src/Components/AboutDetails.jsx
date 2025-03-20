@@ -9,7 +9,7 @@ function AboutDetails() {
       },[])
 
     const item = {
-        hidden: { y: -1000 },
+        hidden: { y: -1500 },
         show: { y: 0 },
         trans: { }
     }
@@ -31,7 +31,7 @@ function AboutDetails() {
       }
 
   return (
-    <motion.section variants={item} initial="hidden" animate="show" transition={{duration: 1, delay: .25}} className="colors-2">
+    <motion.section variants={item} initial="hidden" animate="show" transition={{duration: 1.125, delay: .25}} className="colors-2">
         <motion.div variants={container} initial="hidden" animate="show" className="details">
             <motion.div variants={item2}>
                 <Link className="return" to="/">← Return to home</Link>
