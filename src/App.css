@@ -352,6 +352,7 @@ button {
 }
 
 .button-4 {
+  color: inherit;
   grid-column: 2;
   grid-row: 1;
   background-color: antiquewhite;
@@ -359,6 +360,7 @@ button {
   height: 4rem;
   margin-top: 33rem;
   margin-left: 6rem;
+  text-decoration: none;
 }
 
 .facebook-image {
