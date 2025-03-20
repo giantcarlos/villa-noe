@@ -27,7 +27,7 @@ function Rooms() {
                 <motion.h2 className="small-font-3" variants={item} >OUR ROOMS</motion.h2>
                 <motion.p className="paragraph-2" variants={item} >Villa Noe Beach offers a range of accommodations to suit every traveler. Stay in a rustic cottage, wake up to the ocean in a beachfront room, or enjoy the comfort of an air-conditioned space. For a more open experience, relax in an open-air cabana or camp under the stars with our tent options.</motion.p>
                 <Link to="/rooms" className="button-3">
-                <motion.button variants={item} >LEARN MORE</motion.button>
+                <motion.button variants={item} >VIEW ALL ROOMS</motion.button>
                 </Link>
           </motion.div>
       </section>
