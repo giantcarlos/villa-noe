@@ -772,12 +772,14 @@ button {
     margin-top: 2rem;
     margin-bottom: 2.5rem;
     margin-left: 3rem;
+    display: flex;
   }
   .button-4 {
     width: 14rem;
     margin-top: 2rem;
     margin-bottom: 2.5rem;
     margin-left: 3rem;
+    display: flex;
   }
   .facebook-image {
     margin-top: 2rem;
