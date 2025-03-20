@@ -330,12 +330,15 @@ button {
 }
 
 .button-2 {
+  color: inherit;
+  background-color: inherit;
   grid-column: 2;
   grid-row: 1;
   width: 15rem;
   height: 4rem;
   margin-top: 39rem;
   margin-left: 6rem;
+  text-decoration: none;
 }
 
 .button-3 {
@@ -757,6 +760,7 @@ button {
     margin-top: 2rem;
     margin-bottom: 2.5rem;
     margin-left: 3rem;
+    display: flex;
   }
   .button-3 {
     margin-top: 2rem;
