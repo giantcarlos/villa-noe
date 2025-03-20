@@ -9,19 +9,27 @@ import Contact from './Contact';
 
 function Home() {
 
-    const reveal = {
-        hidden: { y: 75, opacity: 0 },
-        show: { y: 0, opacity: 1 },
-    }
     const item = {
         hidden: { y: -1000 },
         show: { y: 0 },
         trans: { }
     }
+
     const item2 = {
-        hidden: { y: 45, opacity:0 },
-        show: { y: 0, opacity: 1 },
-    }
+        hidden: { y: 12.5, opacity: 0 },
+        show: { y: 0, opacity: 1 }
+      }
+
+    const container = {
+        hidden: { opacity: 0 },
+        show: {
+          opacity: 1,
+          transition: {
+            delayChildren: 1.25,
+            staggerChildren: 0.15
+          }
+        }
+      }
 
     const scrollWithOffset2 = (el) => {
         const yCoordinate = el.getBoundingClientRect().top + window.pageYOffset;
@@ -33,14 +41,14 @@ function Home() {
     <>
     <NavBar />
     <motion.section variants={item} initial="hidden" animate="show" transition={{duration: 1, delay: .125}} className="home">
-        <div className="home-grid">
-            <motion.img variants={reveal} initial="hidden" animate="show" transition={{duration: .8, delay: 1.1375}}className="home-image" alt="Sunrise on Villa Noe Beach sign." src="sunrise.jpg" />
-            <motion.h2 className="small-font" variants={item2} initial="hidden" animate="show" transition={{duration: .75, delay:1.325}}>Cagbalete Island, Philippines</motion.h2>
-            <motion.h1 className="large-font" variants={item2} initial="hidden" animate="show" transition={{duration: .8, delay:1.375}}>VILLA NOE BEACH</motion.h1>
+        <motion.div variants={container} initial="hidden" animate="show" className="home-grid">
+            <motion.h2 variants={item2} className="small-font" >Cagbalete Island, Philippines</motion.h2>
+            <motion.h1 variants={item2} className="large-font" >VILLA NOE BEACH</motion.h1>
             <HashLink className="button" to="#contact" scroll={el => scrollWithOffset2(el)}>
-                <motion.button variants={item2} initial="hidden" animate="show" transition={{duration: .85, delay:1.45}}>BOOK NOW</motion.button>
+                <motion.button variants={item2} >BOOK NOW</motion.button>
             </HashLink>
-        </div>
+            <motion.img variants={item2} className="home-image" alt="Sunrise on Villa Noe Beach sign." src="sunrise.jpg" />
+        </motion.div>
     </motion.section>
     <About />
     <Rooms />

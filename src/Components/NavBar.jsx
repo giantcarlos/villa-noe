@@ -40,7 +40,7 @@ function NavBar() {
 }
 
   return (
-      <motion.nav variants={reveal} initial="hidden" animate="show" transition={{duration: 1.25, delay: 1.5}} className="nav">
+      <motion.nav variants={reveal} initial="hidden" animate="show" transition={{duration: .625, delay: 1.5}} className="nav">
         <img alt="Logo of Villa Noe." className="logo-image" src="logo.png" />
         <div className="title">VILLA NOE BEACH</div>
         <div className="hamburger" onClick={navToggle}>
