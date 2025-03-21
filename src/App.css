@@ -451,13 +451,13 @@ button {
   text-align: left;
   flex-direction: column;
   margin-left: 7rem;
-  line-height: 1rem;
+  line-height: .9rem;
 }
 
 .footer-mid {
   grid-column: 3;
   grid-row: 1;
-  display: flex;
+  /* display: flex; */
   text-align: left;
   flex-direction: column;
   gap: 1.2rem;
@@ -942,43 +942,33 @@ button {
     width: 85%;
   }
   .footer-grid {
+    display: block;
     padding-top: 4rem;
     font-size: 1rem;
   }
   .footer-villa {
-    grid-column: span 5;
-    grid-row: 1;
     margin-left: auto;
     margin-right: auto;
   }
   .footer-left {
-    grid-column: span 5;
-    grid-row: 3;
-    margin-top: 2rem;
+    margin-top: 3rem;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
   }
   .footer-mid {
-    grid-column: span 5;
-    grid-row: 2;
-    gap: 2;
-    align-items: center;
-    margin-top: 2rem;
+    display: none;
+  }
+  .footer-right {
+    display: block;
+    text-align:  center;
+    gap: 1.2rem;
+    margin-top: 3rem;
     margin-left: auto;
     margin-right: auto;
   }
-  .footer-right {
-    grid-column: span 5;
-    grid-row: 4;
-    grid-column: 1;
-    display: flex;
-    align-items: center;
-    flex-direction: row;
-    gap: 1.2rem;
-    margin-top: 2rem;
-    margin-left: auto;
-    margin-right: auto;
+  .footer-icon {
+    margin-bottom: 1rem;
   }
   .follow {
     display: none;
@@ -987,16 +977,12 @@ button {
     display: none;
   }
   .footer-bottom {
-    grid-column: span 5;
-    grid-row: 5;
     margin-top: 4rem;
     margin-left: auto;
     margin-right: auto;
     margin-left: 0;
   }
   .footer-dev {
-    grid-column: span 5;
-    grid-row: 6;
     margin-top: 2rem;
     margin-left: auto;
     margin-right: auto;
