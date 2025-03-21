@@ -19,6 +19,24 @@ function Footer() {
           }
         }
       }
+
+      const scrollWithOffset = (el) => {
+        const yCoordinate = el.getBoundingClientRect().top + window.pageYOffset;
+        const yOffset = -65; 
+        window.scrollTo({ top: yCoordinate + yOffset, behavior: 'smooth' }); 
+    }
+  
+    const scrollWithOffset2 = (el) => {
+      const yCoordinate = el.getBoundingClientRect().top + window.pageYOffset;
+      const yOffset = -40; 
+      window.scrollTo({ top: yCoordinate + yOffset, behavior: 'smooth' }); 
+  }
+  
+    const scrollWithOffset3 = (el) => {
+      const yCoordinate = el.getBoundingClientRect().top + window.pageYOffset;
+      const yOffset = 0; 
+      window.scrollTo({ top: yCoordinate + yOffset, behavior: 'smooth' }); 
+  }
     
       return (
         <section id="contact" className="colors-2">
