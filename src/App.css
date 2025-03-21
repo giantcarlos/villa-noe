@@ -428,6 +428,7 @@ button {
 
 .footer-links {
   color:rgb(40, 40, 40);
+  text-decoration: none;
 }
 
 @media only screen and (max-width: 1350px) {
@@ -637,7 +638,7 @@ button {
     margin-left: 4rem;
   }
   .details {
-    width: 70%;
+    width: 65%;
   }
 }
 

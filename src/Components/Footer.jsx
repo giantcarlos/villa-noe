@@ -40,13 +40,13 @@ function Footer() {
     
       return (
         <section id="contact" className="colors-2">
-          <motion.div className="home-grid" variants={container} initial="hidden" whileInView="show" viewport={{ amount: .45, once: true }}>
-                  <motion.div variants={item} className="footer-links" >
-                        <HashLink to="#" className="links" scroll={el => scrollWithOffset(el)} >HOME</HashLink>
-                        <HashLink to="#about" className="links" scroll={el => scrollWithOffset3(el)} >ABOUT</HashLink>
-                        <HashLink to="#rooms" className="links" scroll={el => scrollWithOffset(el)} >ROOMS</HashLink>
-                        <HashLink to="#amenities" className="links" scroll={el => scrollWithOffset(el)} >AMENITIES</HashLink>
-                        <HashLink to="#contact" className="links" scroll={el => scrollWithOffset2(el)} >CONTACT</HashLink>
+          <motion.div className="footer-grid" variants={container} initial="hidden" whileInView="show" viewport={{ amount: .45, once: true }}>
+                  <motion.div variants={item} >
+                        <HashLink to="#" className="footer-links" scroll={el => scrollWithOffset(el)} >Home</HashLink>
+                        <HashLink to="#about" className="footer-links" scroll={el => scrollWithOffset3(el)} >About</HashLink>
+                        <HashLink to="#rooms" className="footer-links" scroll={el => scrollWithOffset(el)} >Rooms</HashLink>
+                        <HashLink to="#amenities" className="footer-links" scroll={el => scrollWithOffset(el)} >Amenities</HashLink>
+                        <HashLink to="#contact" className="footer-links" scroll={el => scrollWithOffset2(el)} >Contact</HashLink>
                     </motion.div>
             </motion.div>
         </section>
