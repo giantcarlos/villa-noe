@@ -75,7 +75,6 @@ nav {
   transition: 0.75s ease-in-out;
   transform: translateX(100%);
   z-index: 10;
-  
 }
 
 .nav-links-active {
@@ -430,9 +429,95 @@ button {
   color: inherit;
 }
 
+.footer-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  margin: 0 auto;
+  padding-top: 8rem;
+  padding-bottom: 4rem;
+  overflow: hidden;
+  font-size: 1.1rem;
+}
+
+.footer-left {
+  grid-column: 2;
+  grid-row: 1;
+  display: flex;
+  text-align: left;
+  flex-direction: column;
+  margin-left: 7rem;
+  line-height: 1rem;
+}
+
+.footer-mid {
+  grid-column: 3;
+  grid-row: 1;
+  display: flex;
+  text-align: left;
+  flex-direction: column;
+  gap: 1.2rem;
+  margin-left: 8rem;
+}
+
+.footer-right {
+  grid-column: 4;
+  grid-row: 1;
+  display: flex;
+  text-align: left;
+  flex-direction: column;
+  gap: 1.2rem;
+  margin-left: 8rem;
+}
+
+.footer-last {
+  grid-column: 5;
+  grid-row: 1;
+}
+
 .footer-links {
   color:rgb(40, 40, 40);
   text-decoration: none;
+}
+
+.address {
+  margin-bottom: 1rem;
+}
+
+.footer-icon {
+  width: 2rem;
+}
+
+.footer-villa {
+  width: 4.5rem;
+  grid-column: 1;
+  grid-row: 1;
+  margin-left: 10rem;
+  
+}
+
+.footer-arrow {
+  border: .9px;
+  border-style: solid;
+  color:rgb(40, 40, 40);
+  padding: .75rem;
+}
+
+.footer-bottom {
+  grid-row: 2;
+  grid-column: span 3;
+  margin-top: 10rem;
+  margin-left: -20rem;
+}
+
+.footer-dev {
+  grid-row: 2;
+  grid-column: span 2;
+  margin-top: 10rem;
+  font-size: .9rem;
+}
+
+.copyright {
+  font-size: .9rem;
 }
 
 @media only screen and (max-width: 1350px) {

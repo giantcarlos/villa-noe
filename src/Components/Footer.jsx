@@ -41,12 +41,35 @@ function Footer() {
       return (
         <section id="contact" className="colors-2">
           <motion.div className="footer-grid" variants={container} initial="hidden" whileInView="show" viewport={{ amount: .45, once: true }}>
-                  <motion.div variants={item} >
+                <motion.img className="footer-villa" variants={item} alt="Villa Noe logo." src="villablack.png" />
+                <motion.div variants={item} className="footer-left">
+                    <div className="address">Villa Noe Beach</div>
+                    <div className="address">Cagbalete Island</div>
+                    <div className="address">Mauban, Quezon</div>
+                    <div className="address">Philippines</div>
+                </motion.div>
+                  <motion.div className="footer-mid" variants={item} >
                         <HashLink to="#" className="footer-links" scroll={el => scrollWithOffset(el)} >Home</HashLink>
                         <HashLink to="#about" className="footer-links" scroll={el => scrollWithOffset3(el)} >About</HashLink>
                         <HashLink to="#rooms" className="footer-links" scroll={el => scrollWithOffset(el)} >Rooms</HashLink>
                         <HashLink to="#amenities" className="footer-links" scroll={el => scrollWithOffset(el)} >Amenities</HashLink>
                         <HashLink to="#contact" className="footer-links" scroll={el => scrollWithOffset2(el)} >Contact</HashLink>
+                    </motion.div>
+                    <motion.div variants={item} className="footer-right">
+                        <div className="address">Follow us</div>
+                        <img className="footer-icon" variants={item} alt="Facebook icon." src="fb.png" />
+                        <img className="footer-icon" variants={item} alt="Instagram icon." src="insta.png" />
+                    </motion.div>
+                    <motion.div variants={item} className="footer-last">
+                    <HashLink to="#" className="footer-arrow" scroll={el => scrollWithOffset(el)} >⬆︎</HashLink>
+                    </motion.div>
+                    <motion.div variants={item} className="footer-bottom">
+                        <div className="copyright">© Copyright 2025 Villa Noe Beach</div>
+                    </motion.div>
+                    <motion.div variants={item} className="footer-dev">
+                        <div >Website designed and maintained by&nbsp;
+                            <a className="details-link"href='https://www.giantcarlos.com/' target="_blank">Gian Carlos</a>
+                        </div>
                     </motion.div>
             </motion.div>
         </section>
