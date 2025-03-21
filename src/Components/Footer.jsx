@@ -56,9 +56,11 @@ function Footer() {
                         <HashLink to="#contact" className="footer-links" scroll={el => scrollWithOffset2(el)} >Contact</HashLink>
                     </motion.div>
                     <motion.div variants={item} className="footer-right">
-                        <div className="address">Follow us</div>
-                        <img className="footer-icon" variants={item} alt="Facebook icon." src="fb.png" />
-                        <img className="footer-icon" variants={item} alt="Instagram icon." src="insta.png" />
+                        <div className="follow">Follow us</div>
+                        <div className="icon-container">
+                            <img className="footer-icon" variants={item} alt="Facebook icon." src="fb.png" />
+                            <img className="footer-icon" variants={item} alt="Instagram icon." src="insta.png" />
+                        </div>
                     </motion.div>
                     <motion.div variants={item} className="footer-last">
                     <HashLink to="#" className="footer-arrow" scroll={el => scrollWithOffset(el)} >⬆︎</HashLink>

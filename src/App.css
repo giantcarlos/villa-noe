@@ -15,6 +15,11 @@ body {
   text-align: center;
 }
 
+#main-wrapper {
+  width: 100%;
+  max-width: 1000px;
+}
+
 nav {
   display: block;
   color: rgb(0, 190, 190);
@@ -434,7 +439,7 @@ button {
   grid-template-columns: repeat(5, 1fr);
   margin: 0 auto;
   padding-top: 8rem;
-  padding-bottom: 4rem;
+  padding-bottom: 5rem;
   overflow: hidden;
   font-size: 1.1rem;
 }
@@ -465,7 +470,7 @@ button {
   display: flex;
   text-align: left;
   flex-direction: column;
-  gap: 1.2rem;
+  gap: 1.5rem;
   margin-left: 8rem;
 }
 
@@ -485,6 +490,7 @@ button {
 
 .footer-icon {
   width: 2rem;
+  margin-right: 1.25rem;
 }
 
 .footer-villa {
@@ -492,7 +498,6 @@ button {
   grid-column: 1;
   grid-row: 1;
   margin-left: 10rem;
-  
 }
 
 .footer-arrow {
@@ -505,14 +510,14 @@ button {
 .footer-bottom {
   grid-row: 2;
   grid-column: span 3;
-  margin-top: 10rem;
+  margin-top: 12rem;
   margin-left: -20rem;
 }
 
 .footer-dev {
   grid-row: 2;
   grid-column: span 2;
-  margin-top: 10rem;
+  margin-top: 12rem;
   font-size: .9rem;
 }
 
@@ -617,6 +622,18 @@ button {
   .facebook-image {
     margin-top: 26rem;
     margin-left: 6rem;
+  }
+  .footer-villa {
+    margin-left: 6rem;
+  }
+  .footer-left {
+    margin-left: 4rem;
+  }
+  .footer-mid {
+    margin-left: 4rem;
+  }
+  .footer-right {
+    margin-left: 4rem;
   }
 }
 
@@ -728,6 +745,12 @@ button {
   }
   .details {
     width: 65%;
+  }
+  .footer-villa {
+    margin-left: 4rem;
+  }
+  .footer-left {
+    margin-left: 2rem;
   }
 }
 
@@ -917,5 +940,66 @@ button {
   }
   .details {
     width: 85%;
+  }
+  .footer-grid {
+    padding-top: 4rem;
+    font-size: 1rem;
+  }
+  .footer-villa {
+    grid-column: span 5;
+    grid-row: 1;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .footer-left {
+    grid-column: span 5;
+    grid-row: 3;
+    margin-top: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+  .footer-mid {
+    grid-column: span 5;
+    grid-row: 2;
+    gap: 2;
+    align-items: center;
+    margin-top: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .footer-right {
+    grid-column: span 5;
+    grid-row: 4;
+    grid-column: 1;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 1.2rem;
+    margin-top: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .follow {
+    display: none;
+  }
+  .footer-arrow {
+    display: none;
+  }
+  .footer-bottom {
+    grid-column: span 5;
+    grid-row: 5;
+    margin-top: 4rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-left: 0;
+  }
+  .footer-dev {
+    grid-column: span 5;
+    grid-row: 6;
+    margin-top: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+    float: center;
   }
 }
