@@ -457,7 +457,7 @@ button {
 .footer-mid {
   grid-column: 3;
   grid-row: 1;
-  /* display: flex; */
+  display: flex;
   text-align: left;
   flex-direction: column;
   gap: 1.2rem;

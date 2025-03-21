@@ -58,8 +58,12 @@ function Footer() {
                     <motion.div variants={item} className="footer-right">
                         <div className="follow">Follow us</div>
                         <div className="icon-container">
-                            <img className="footer-icon" variants={item} alt="Facebook icon." src="fb.png" />
+                        <a className="details-link" href='https://www.facebook.com/VillaNoeBeach/' target="_blank">
+                        <img className="footer-icon" variants={item} alt="Facebook icon." src="fb.png" />
+                        </a>
+                        <a className="details-link" href='https://www.instagram.com/villanoebeachresort/' target="_blank">
                             <img className="footer-icon" variants={item} alt="Instagram icon." src="insta.png" />
+                        </a>
                         </div>
                     </motion.div>
                     <motion.div variants={item} className="footer-last">
