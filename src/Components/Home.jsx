@@ -6,6 +6,7 @@ import About from './About';
 import Rooms from './Rooms';
 import Amenities from './Amenities';
 import Contact from './Contact';
+import Footer from './Footer';
 
 function Home() {
 
@@ -54,6 +55,7 @@ function Home() {
     <Rooms />
     <Amenities />
     <Contact />
+    <Footer />
     </>
   )
 }
