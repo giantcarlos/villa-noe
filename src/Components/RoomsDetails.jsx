@@ -43,7 +43,7 @@ function RoomsDetails() {
                 </motion.figure>
                 <motion.div variants={item2}>
                   <ul>Air-Conditioned Rooms:</ul>
-                  <ul>Comes in 2 pax, 3-4 pax, and 5-6 pax.</ul>
+                  <ul className="room-info">Comes in 2 pax, 3-4 pax, and 5-6 pax.</ul>
                 </motion.div>
                 <motion.figure variants={item2} className="couple-image">
                     <img src="cottage.jpg" alt="Rustic fan cottages."></img>
@@ -51,21 +51,9 @@ function RoomsDetails() {
                 </motion.figure>
                 <motion.div variants={item2}>
                   <ul>Fan Rooms:</ul>
-                  <ul>Comes in 2 pax, 3-4 pax, 5-6 pax, 7-8 pax, 9-10 pax, 11-12 pax.</ul>
+                  <ul className="room-info">Comes in 2 pax, 3-4 pax, 5-6 pax, 7-8 pax, 9-10 pax, 11-12 pax.</ul>
                   <ul>Deluxe Fan Rooms:</ul>
-                  <ul>Comes in 13-16, pax 17-20 pax.</ul>
-                </motion.div>
-                <motion.div variants={item2}>
-                  <ul></ul>
-                  <ul></ul>
-                  <ul></ul>
-                  <ul></ul>
-                </motion.div>
-                <motion.div variants={item2}>
-                  <ul></ul>
-                  <ul></ul>
-                  <ul></ul>
-                  <ul></ul>
+                  <ul className="room-info">Comes in 13-16, pax 17-20 pax.</ul>
                 </motion.div>
                 <motion.p className="details-contact" variants={item2}>
                 For prices and availability, send us a message on&nbsp;

@@ -418,6 +418,10 @@ button {
   line-height: 2;
 }
 
+.room-info {
+  margin-left: 2rem;
+}
+
 .details-contact {
   margin-top: 3rem;
 }
