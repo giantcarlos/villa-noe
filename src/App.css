@@ -781,14 +781,14 @@ figure {
     font-size: 1.75rem;
   }
   .logo-image {
-    width: 4rem;
-    margin-left: 2rem;
-    margin-right: 1rem;
-    margin-top: .45rem;
+    width: 3.75rem;
+    margin-left: 1.25rem;
+    margin-right: .5rem;
+    margin-top: .65rem;
   }
   .title {
-    font-size: 1.5rem;
-    margin-top: 1.65rem;
+    font-size: 1.25rem;
+    margin-top: 1.75rem;
   }
   .numbers {
     display: none;
@@ -796,7 +796,7 @@ figure {
   .hamburger {
     margin-top: 1rem;
     margin-left: .5rem;
-    margin-right: 2rem;
+    margin-right: 1.25rem;
   }
   .home {
     padding-top: 6.25rem;
