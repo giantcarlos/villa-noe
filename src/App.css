@@ -772,9 +772,11 @@ figure {
     height: 5rem;
   }
   .nav-links {
+    padding-top: 8rem;
     width: 60%;
   }
   .nav-links-active {
+    padding-top: 8rem;
     width: 60%;
   }
   .links {
