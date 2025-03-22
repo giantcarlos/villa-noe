@@ -39,22 +39,16 @@ function RoomsDetails() {
                 <motion.div variants={item2} className="details-title">Our Rooms</motion.div>
                 <motion.figure variants={item2} className="couple-image">
                     <img src="aircon.jpeg" alt="Air-conditioned rooms."></img>
-                    <figcaption className="couple-cap">Air-Conditioned Room</figcaption>
+                    <figcaption className="couple-cap">Air-Conditioned Rooms. Comes in 2 pax, 3-4 pax, and 5-6 pax.</figcaption>
                 </motion.figure>
-                <motion.div variants={item2}>
-                  <ul>Air-Conditioned Rooms:</ul>
-                  <ul className="room-info">Comes in 2 pax, 3-4 pax, and 5-6 pax.</ul>
-                </motion.div>
                 <motion.figure variants={item2} className="couple-image">
                     <img src="cottage.jpg" alt="Rustic fan cottages."></img>
-                    <figcaption className="couple-cap">Rustic Fan Rooms</figcaption>
+                    <figcaption className="couple-cap">Rustic Fan Rooms. Comes in 2 pax, 3-4 pax, 5-6 pax, 7-8 pax, 9-10 pax, 11-12 pax</figcaption>
                 </motion.figure>
-                <motion.div variants={item2}>
-                  <ul>Fan Rooms:</ul>
-                  <ul className="room-info">Comes in 2 pax, 3-4 pax, 5-6 pax, 7-8 pax, 9-10 pax, 11-12 pax.</ul>
-                  <ul>Deluxe Fan Rooms:</ul>
-                  <ul className="room-info">Comes in 13-16, pax 17-20 pax.</ul>
-                </motion.div>
+                <motion.figure variants={item2} className="couple-image">
+                    <img src="deluxe.jpg" alt="Deluxe fan cottages."></img>
+                    <figcaption className="couple-cap">Deluxe Fan Rooms. Comes in 13-16, pax 17-20 pax.</figcaption>
+                </motion.figure>
                 <motion.p className="details-contact" variants={item2}>
                 For prices and availability, send us a message on&nbsp;
                 <a className="details-link" href='https://www.facebook.com/VillaNoeBeach/' target="_blank">Facebook</a> or call us at 0906-519-7126 / 0921-784-9062.
