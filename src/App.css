@@ -347,6 +347,7 @@ button {
   width: 15rem;
   height: 4rem;
   color: inherit;
+  font-weight: 600;
   background-color: inherit;
   border-color: inherit;
   border-style: solid;
