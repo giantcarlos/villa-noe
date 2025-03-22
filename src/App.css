@@ -773,11 +773,13 @@ figure {
   }
   .nav-links {
     padding-top: 7rem;
-    width: 60%;
+    width: 65%;
+    gap: 1.5rem;
   }
   .nav-links-active {
     padding-top: 7rem;
-    width: 60%;
+    width: 65%;
+    gap: 1.5rem;
   }
   .nav-copyright {
     margin-top: 5rem;
