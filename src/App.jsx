@@ -9,14 +9,12 @@ function App() {
 
   return (
     <HashRouter>
-      <div>
           <Routes>
             <Route exact path="/" element={<Home />} />
             <Route exact path="/about" element={<AboutDetails />} />
             <Route exact path="/rooms" element={<RoomsDetails />} />
             <Route exact path="/amenities" element={<AmenitiesDetails />} />
           </Routes>
-      </div> 
     </HashRouter>
   )
 }
