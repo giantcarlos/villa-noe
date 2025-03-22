@@ -850,7 +850,7 @@ figure {
     text-align: left;
     font-size: 1rem;
     margin-top: 2rem;
-    margin-left: 3rem;
+    margin-left: 2rem;
   }
   .small-font-2 {
     text-align: left;
@@ -858,31 +858,31 @@ figure {
     grid-column: 2;
     grid-row: 1;
     margin-top: 3rem;
-    margin-left: 3rem;
+    margin-left: 2rem;
   }
   .small-font-3 {
     text-align: left;
     font-size: 1rem;
     margin-top: 3rem;
-    margin-left: 3rem;
+    margin-left: 2rem;
   }
   .small-font-4 {
     text-align: left;
     font-size: 1rem;
     margin-top: 3rem;
-    margin-left: 3rem;
+    margin-left: 2rem;
   }
   .small-font-5 {
     text-align: left;
     font-size: 2rem;
     margin-top: 3rem;
-    margin-left: 3rem;
+    margin-left: 2rem;
   }
   .large-font {
     text-align: left;
     font-size: 4rem;
     margin-top: 1.5rem;
-    margin-left: 3rem;
+    margin-left: 2rem;
     margin-right: 3rem;
   }
   .paragraph {
@@ -891,8 +891,8 @@ figure {
     text-align: left;
     line-height: 2;
     margin-top: 1.5rem;
-    margin-left: 3rem;
-    margin-right: 3rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
   }
   .paragraph-2 {
     grid-column: 1;
@@ -900,8 +900,8 @@ figure {
     text-align: left;
     line-height: 2;
     margin-top: 1.5rem;
-    margin-left: 3rem;
-    margin-right: 3rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
   }
   .paragraph-3 {
     grid-column: 1;
@@ -909,8 +909,8 @@ figure {
     text-align: left;
     line-height: 2;
     margin-top: 1.5rem;
-    margin-left: 3rem;
-    margin-right: 3rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
   }
   .paragraph-4 {
     grid-column: 1;
@@ -918,8 +918,8 @@ figure {
     text-align: left;
     line-height: 2;
     margin-top: 1rem;
-    margin-left: 3rem;
-    margin-right: 3rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
   }
   .bullets {
     font-size: 1.5rem;
@@ -930,32 +930,32 @@ figure {
     width: 14rem;
   }
   .button {
-    margin-left: 3rem;
+    margin-left: 2rem;
     margin-top: -1.625rem;
     margin-bottom: 2.5rem;
   }
   .button-2 {
     margin-top: 2rem;
     margin-bottom: 2.5rem;
-    margin-left: 3rem;
+    margin-left: 2rem;
     display: flex;
   }
   .button-3 {
     margin-top: 2rem;
     margin-bottom: 2.5rem;
-    margin-left: 3rem;
+    margin-left: 2rem;
     display: flex;
   }
   .button-4 {
     width: 14rem;
     margin-top: 2rem;
     margin-bottom: 2.5rem;
-    margin-left: 3rem;
+    margin-left: 2rem;
     display: flex;
   }
   .facebook-image {
     margin-top: 2rem;
-    margin-left: 2rem;
+    margin-left: 1rem;
     margin-bottom: 4rem;
   }
   .details {
