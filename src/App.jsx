@@ -1,5 +1,5 @@
 import './App.css';
-import { HashRouter, Routes, Route } from 'react-router-dom';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Home from './Components/Home';
 import AboutDetails from './Components/AboutDetails';
 import RoomsDetails from './Components/RoomsDetails';
@@ -8,7 +8,7 @@ import AmenitiesDetails from './Components/AmenitiesDetails';
 function App() {
 
   return (
-    <HashRouter>
+    <BrowserRouter>
       <div>
           <Routes>
             <Route exact path="/" element={<Home />} />
@@ -17,7 +17,7 @@ function App() {
             <Route exact path="/amenities" element={<AmenitiesDetails />} />
           </Routes>
       </div> 
-    </HashRouter>
+    </BrowserRouter>
   )
 }
 
