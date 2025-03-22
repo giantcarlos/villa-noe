@@ -52,6 +52,7 @@ function NavBar() {
                     <HashLink to="#rooms" className="links" scroll={el => scrollWithOffset(el)} >ROOMS</HashLink>
                     <HashLink to="#amenities" className="links" scroll={el => scrollWithOffset(el)} >AMENITIES</HashLink>
                     <HashLink to="#contact" className="links" scroll={el => scrollWithOffset2(el)} >CONTACT</HashLink>
+                    <div className="nav-copyright">© Copyright 2025 Villa Noe Beach</div>
                     <div className="webmaster">Website designed and maintained by&nbsp;
                       <a className="portfolio"href='https://www.giantcarlos.com/' target="_blank">Gian Carlos</a>
                     </div>

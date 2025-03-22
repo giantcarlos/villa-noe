@@ -108,12 +108,19 @@ nav {
   font-family: Helvetica, Arial, sans-serif;
 }
 
-.webmaster {
-  margin-top: 7rem;
+.nav-copyright {
+  margin-top: 8rem;
   margin-left: 1.75rem;
   margin-right: 1.75rem;
   color: antiquewhite;
-  line-height: 1.75;
+  font-size: .9rem;
+}
+
+.webmaster {
+  margin-top: -.5rem;
+  margin-left: 1.75rem;
+  margin-right: 1.75rem;
+  color: antiquewhite;
   font-size: .9rem;
 }
 

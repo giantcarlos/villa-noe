@@ -43,7 +43,7 @@ function AmenitiesDetails() {
                   <ul>Catering - Varies*</ul>
                   <ul>Frisbee - 50/hour</ul>
                   <ul>Island Tours - Varies*</ul>
-                  <ul>Massage - 400</ul>
+                  <ul>Massage - 500</ul>
                   <ul>Kayaks - 300/hour</ul>
                   <ul>Paddleboards - 250/hour</ul>
                   <ul>Skimboards - 200/hour</ul>

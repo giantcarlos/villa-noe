@@ -15,7 +15,7 @@ function Footer() {
           opacity: 1,
           transition: {
             delayChildren: 0,
-            staggerChildren: 0.15
+            staggerChildren: 0.125
           }
         }
       }
