@@ -47,7 +47,7 @@ function RoomsDetails() {
                 </motion.figure>
                 <motion.figure variants={item2} className="couple-image">
                     <img src="deluxe.jpg" alt="Deluxe fan cottages."></img>
-                    <figcaption className="couple-cap">Deluxe Fan Rooms. Comes in 13-16, pax 17-20 pax.</figcaption>
+                    <figcaption className="couple-cap">Deluxe Fan Rooms. Comes in 13-16 pax, 17-20 pax.</figcaption>
                 </motion.figure>
                 <motion.p className="details-contact" variants={item2}>
                 For prices and availability, send us a message on&nbsp;
