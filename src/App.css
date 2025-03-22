@@ -772,12 +772,15 @@ figure {
     height: 5rem;
   }
   .nav-links {
-    padding-top: 8rem;
+    padding-top: 7rem;
     width: 60%;
   }
   .nav-links-active {
-    padding-top: 8rem;
+    padding-top: 7rem;
     width: 60%;
+  }
+  .nav-copyright {
+    margin-top: 5rem;
   }
   .links {
     font-size: 1.75rem;
