@@ -759,6 +759,12 @@ button {
   .footer-left {
     margin-left: 2rem;
   }
+  .footer-bottom {
+    margin-left: -13rem;
+  }
+  .footer-dev {
+    margin-left: -4rem;
+  }
 }
 
 @media only screen and (max-width: 850px) {
@@ -987,7 +993,6 @@ button {
     margin-top: 4rem;
     margin-left: auto;
     margin-right: auto;
-    margin-left: 0;
   }
   .footer-dev {
     margin-top: 2rem;
