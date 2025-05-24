@@ -57,7 +57,7 @@ function NavBar() {
                       <a className="portfolio"href='https://www.giantcarlos.com/' target="_blank">Gian Carlos</a>
                     </div>
                 </div>
-            <div className="numbers">0906-519-7126 / 0921-784-9062</div>
+            <div className="numbers">0995-586-2473 / 0921-784-9062</div>
       </motion.nav>
   )
 }

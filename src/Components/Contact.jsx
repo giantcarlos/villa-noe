@@ -25,7 +25,7 @@ function Contact() {
               <motion.img className="contact-image" variants={item} alt="Cottages at Villa Noe." src="jump.jpg" />
               <motion.h2 className="small-font-5" variants={item} >BOOK NOW</motion.h2>
               <motion.p className="paragraph-4" variants={item} >For reservations or inquiries, message us on our&nbsp;
-              <a className="details-link" href='https://www.facebook.com/VillaNoeBeach/' target="_blank">Facebook</a> page or call us at 0906-519-7126 or 0921-784-9062.</motion.p>
+              <a className="details-link" href='https://www.facebook.com/VillaNoeBeach/' target="_blank">Facebook</a> page or call us at 0995-586-2473 or 0921-784-9062.</motion.p>
               <motion.a href="https://www.facebook.com/VillaNoeBeach/" target="_blank" className="facebook-image" variants={item}><img src="facebook.png" alt="Find us on facebook banner image." width="300" /></motion.a>
         </motion.div>
     </section>
