@@ -41,7 +41,9 @@ function Footer() {
       return (
         <section id="contact" className="colors-2">
           <motion.div className="footer-grid" variants={container} initial="hidden" whileInView="show" viewport={{ amount: .45, once: true }}>
-                <motion.img className="footer-villa" variants={item} alt="Villa Noe logo." src="villablack.png" />
+                <HashLink to="#" className="links" scroll={el => scrollWithOffset(el)} >
+                  <motion.img className="footer-villa" variants={item} alt="Villa Noe logo." src="villablack.png" />
+                </HashLink>
                 <motion.div variants={item} className="footer-left">
                     <div className="address">Villa Noe Beach</div>
                     <div className="address">Cagbalete Island</div>

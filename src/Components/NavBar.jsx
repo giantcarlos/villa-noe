@@ -41,8 +41,10 @@ function NavBar() {
 
   return (
       <motion.nav variants={reveal} initial="hidden" animate="show" transition={{duration: .625, delay: 1.5}} className="nav">
-        <img alt="Logo of Villa Noe." className="logo-image" src="logo.png" />
-        <div className="title">VILLA NOE BEACH</div>
+        <HashLink to="#" className="links" scroll={el => scrollWithOffset(el)} >
+          <img alt="Logo of Villa Noe." className="logo-image" src="logo.png" />
+          <div className="title">VILLA NOE BEACH</div>
+        </HashLink>
         <div className="hamburger" onClick={navToggle}>
                 <Hamburger toggled={isOpen} toggle={setOpen}/>
                 </div>
