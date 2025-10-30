@@ -434,8 +434,12 @@ figure {
   margin-bottom: 2rem;
 }
 
+.room-details {
+  margin-bottom: 4rem;
+}
+
 .details-contact {
-  margin-top: 2rem;
+  margin-top: 4rem;
 }
 
 .details-link {

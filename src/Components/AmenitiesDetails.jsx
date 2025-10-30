@@ -40,13 +40,26 @@ function AmenitiesDetails() {
                 <motion.div variants={item2}>
                   <ul>Beach Volleyball - 100/hour</ul>
                   <ul>Billiards - 300/hour</ul>
-                  <ul>Catering - Varies*</ul>
                   <ul>Frisbee - 50/hour</ul>
                   <ul>Island Tours - Varies*</ul>
                   <ul>Massage - 500</ul>
                   <ul>Kayaks - 300/hour</ul>
                   <ul>Paddleboards - 250/hour</ul>
                   <ul>Skimboards - 200/hour</ul>
+                </motion.div>
+                <motion.div variants={item2} className="details-title">Catering and Food Packages</motion.div>
+                <motion.div variants={item2}>
+                  <ul>- 1,500 per head.</ul>
+                  <ul>- 3 meals. (1 meat dish, 1 veg dish, 1 seafood dish.)</ul>
+                  <ul>- Dessert and drinks included.</ul>
+                  <ul>- Advanced notice and 50% down payment required.</ul>
+                </motion.div>
+                <motion.div variants={item2} className="details-title">Food Corkage (if you bring your own)</motion.div>
+                <motion.div variants={item2}>
+                  <ul>2-10 pax group - 150</ul>
+                  <ul>11-30 pax group - 300</ul>
+                  <ul>31-50 pax group - 500</ul>
+                  <ul>50-100 pax group - 1,000</ul>
                 </motion.div>
                 <motion.p className="details-contact" variants={item2}>
                     *For the latest prices and availability, send us a message on&nbsp;
