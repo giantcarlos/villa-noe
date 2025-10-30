@@ -66,6 +66,21 @@ function RoomsDetails() {
                     <ul>13-16 pax deluxe fanroom - 7,500</ul>
                     <ul>17-20 pax deluxe fanroom - 8,500</ul>
                 </motion.div>
+                <motion.div variants={item2} className="details-title">Tent Camping</motion.div>
+                <motion.div variants={item2}>
+                      <ul>1-2 pax tent - 500</ul>
+                      <ul>3-4 pax tent - 700</ul>
+                      <ul>5-6 pax tent - 900</ul>
+                      <ul>Bring your own tent - 400</ul>
+                      <ul>Mattress and pillow set - 100</ul>
+                      <ul>Picnic hut - 1000</ul>
+                </motion.div>
+                <motion.div variants={item2} className="details-title">Tent Camping Entrance Fee</motion.div>
+                <motion.div variants={item2}>
+                      <ul>Adults - 100 per head</ul>
+                      <ul>Seniors & persons with disability - 50 per head</ul>
+                      <ul>Children (under 10 years) - 50 per head</ul>
+                </motion.div>
                 <motion.p className="details-contact" variants={item2}>
                 <p>We require a 50% downpayment in our BDO account to make reservations. Remaining balance in cash or check upon arrival.</p>  
                 For availability, send us a message on&nbsp;
